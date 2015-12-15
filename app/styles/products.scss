@@ -1,0 +1,119 @@
+.logo {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.logo-lg {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+md-content {
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+md-card a {
+    padding: 16px 8px 8px 16px;
+    text-decoration:none;
+    color: #333;
+}
+
+.card-content{
+    .flex {
+        text-align: center;
+    }
+    strong {
+        font-size: 24px;
+        display: block;
+        font-weight: normal;
+    }
+    label {
+        display: block;
+        font-size: 10px;
+        color: #999;
+    }
+}
+
+.income {
+    color: #2196F3;
+}
+.completeness {
+    position: relative;
+    top: -4px
+}
+
+.card-footer {
+    font-size: 14px;
+    color: #555;
+    margin-top: 12px;
+    padding: 8px 0 0 4px;
+    border-top: 1px solid #ddd;
+ }
+
+.progress-wrapper {
+    position: relative;
+}
+.progress-text {
+    font-size: 14px;
+    position: absolute;
+    top: 14px;
+    left: 48px;
+}
+
+.detail-title {
+    display: table;
+    padding: 12px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    text-align: center;
+    span {
+        font-size: 20px;
+    }
+}
+
+.detail-income {
+    font-size: 48px;
+    color: #2196F3;
+}
+.detail-income-label {
+    font-size: 12px;
+    color: #999;
+}
+
+.progress-linear {
+    width: 100%;
+    overflow:hidden;
+}
+.progress-linear-indecator {
+    color: #2196F3;
+    position: relative;
+    left: 70%;
+    top: 4px;
+    i {
+        font-size: 32px;
+    }
+    label {
+        color: #FFF;
+        position: relative;
+        left: -30px;
+        top: -13px;
+        font-size: 12px;
+    }
+}
+
+.card-content-detail {
+    padding: 16px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.detail-list {
+    line-height: 40px;
+    margin: 12px 0;
+    div {
+        border-bottom: 1px solid #eee;
+    }
+}

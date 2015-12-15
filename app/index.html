@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <title>昆明市民营金融行业协会</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/font.css"/>
+    <link rel="stylesheet" href="styles/products.css"/>
+    <!-- endbuild -->
+
+    <style type="text/css">
+        /**
+         * Hide when Angular is not yet loaded and initialized
+         */
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+          display: none !important;
+        }
+    </style>
+
+  </head>
+
+  <body ng-app="kmFinancialApp" ng-cloak >
+    <div ng-view="">
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <a ng-href="#">
+          <i class="material-icons">home</i>
+          <label>首页</label>
+        </a>
+        <a ng-href="#">
+          <i class="material-icons">person</i>
+          <label>我的</label>
+        </a>
+      </div>
+    </footer>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-svg-round-progressbar/build/roundProgress.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/controllers/products.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
